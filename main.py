@@ -3,8 +3,7 @@
 import random
 
 def print_list(target_list): # Neatly format printed list
-    for item in target_list:
-        print(item, end=" ")
+    print(' '.join(map(str, target_list)))
     print()
 
 def pop_random(target_list=None):
