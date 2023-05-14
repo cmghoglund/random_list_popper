@@ -4,7 +4,6 @@ import random
 
 def print_list(target_list): # Neatly format printed list
     print(' '.join(map(str, target_list)))
-    print()
 
 def pop_random(target_list=None):
     if target_list is None: # If no list provided as argument, use default list created by program
